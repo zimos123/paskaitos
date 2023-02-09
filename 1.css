@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+}
+
+
+
+
+.main-container {
+    width: 600px;
+    height: 600px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.container .vaikas {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+   
+}
+    
+.container .vaikas-2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}

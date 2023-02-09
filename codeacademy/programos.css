@@ -1,0 +1,18 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.puslapis {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1 {
+   margin-left: 70px;
+
+}
+
+.antrines-skilties-apgaubejas {
+    background-color: brown;
+    padding: 40px 45px 40px;
+}
+

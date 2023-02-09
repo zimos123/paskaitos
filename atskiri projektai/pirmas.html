@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mano pirmasis puslapis</title>
+
+    <style>
+        body{
+            margin-bottom: 500px;
+        }
+
+
+        h3{
+            color: red;
+            background-color:burlywood
+        }
+
+        h4{
+            color:blueviolet;
+            font-size: 30px;
+            
+        }
+
+        #special-heading{
+            color:red;
+        }
+
+        .color-green{
+            color: green;
+        }
+
+    </style>
+    
+</head>
+<body>
+<!--html elementai yra dvieju tipu 
+block tipo HTML elemanetai
+1. prasideda naujoje eiluteje.
+2. uzima pilna tevinio elemento ploti.
+-->
+
+<!-- headings - pavadinimai -->
+    <h1 style="color: green; font-size: 60px; background-color: bisque">heading1</h1>
+    <h2 style="color:blue; text-transform:uppercase;">heading2</h2>
+    <h3>heading3</h3>
+    <h4>heading4</h4>
+    <h5>heading5</h5>
+    <h6>heading6</h6>
+
+    <!-- div - sugrupuoja -->
+    <div> id
+        <h1 style="color: green; font-size: 60px; background-color: bisque">heading1</h1>
+        <h2>heading2</h2>
+        <h3>heading3</h3>
+        <h4>heading4</h4>
+        <h5 id="special-heading">heading5</h5>
+        <h6>heading6</h6>
+    </div>
+
+<!-- cia yra paragrafas</p> -->
+    <p>Lorem ipsum <b style="background-color:aqua;"> sit  amet </b>consectetur <em>adipisicing </em>elit. Eos, labore..</p>
+
+
+    <p>Lorem <strong>ipsum dolor <u>sit amet </u>consectetur </strong>adipisicing elit. <i>Tempore veritatis </i> quas in, perferendis optio illo sunt? <mark>voluptatem dolorum </mark>temporibus!</p>
+
+    <!-- 1. visi ol ir ul elementu vaikiniai elementai privalo buti li elementai. 
+    2 li elementai yra naudojami TIK kaip ul arba ol elementu vaikiniai elemenetai.-->
+
+    <!-- order list - numeruotas sarasas -->
+
+    <ol>
+        <li class="color-green">pirmas</li>
+        <li>antras</li>
+        <li>trecias</li>
+    </ol>
+
+    <!-- unorder list - nenumeruotas sarasas -->
+    
+    <ul>
+        <li class="color-green">vienas</li>
+        <li>du</li>
+        <li>trys</li>
+    </ul>
+
+    <!-- INLINE tipo HTML elementai -->
+    <button>Click Me</button>
+    <a href="https://google.com" target="_blank">nuoroda 
+    i isorini puslapi</a>
+    <a href="contacts.html">kontaktu puslapis</a>
+    <a href="#headers">Nuoroda tame pacciame puslapyje</a>
+    <a href="mailto:info@abs.com">susisiekti el pastu<a/>
+    <a href="tel:+37054925648">susisiekti telefonu</a>
+
+     <img src="https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60"
+     width="350" alt="white cat">
+
+    <img src="images/cat.jpg" alt="orange cat" height="100">
+    <br>
+    <textarea cols="10" rows="3"></textarea> 
+    <input type="text" placeholder="Enter your name" maxlength="5">
+    <input type="button" value="Click">
+    <input type="checkbox" checked>
+    <input type="color">
+    <input type="date"> 
+    <input type="number" placeholder="Enter your age" value="10" min="5" max="50" step="0.1">
+
+    <b>labas</b>
+     
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+img {
+    height: 300px;
+    object-fit: cover;
+ 
+}
+h1 {
+    margin-left: 735px;
+    margin-top: 80px;
+    color: blue;
+   
+}
+.card {
+    display: flex
+    
+
+   
+
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}

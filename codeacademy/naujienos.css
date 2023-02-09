@@ -1,0 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.puslapis { 
+max-width: 1230px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;   
+}
+.puslapio-apgaubimas {
+    display:flex;
+    column-gap: 30px;
+}

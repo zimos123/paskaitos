@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+  
+  .block1,
+  .block2 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+  }
+  
+  .melyna {
+    color: blue;
+  }
+  
+  .blokoTekstas {
+    padding: 50px 30px;
+    background-color: white;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  h4 {
+    margin: 2px 0 0 0;
+  }
+  
+  .mainContainer {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-right: 20px;
+   
+  }
+  
+  p {
+    margin: 0 0 10px 0;
+  }
+  
+  .xuinia {
+    padding-left: 60px;
+  }
+  
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
